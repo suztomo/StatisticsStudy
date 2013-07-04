@@ -4,6 +4,9 @@ build-type:        Simple
 cabal-version:     >= 1.2
 
 executable divr
-  main-is: Main.hs
+  main-is: Statistics/Tools/Divr/Main.hs
   build-depends:   base >= 3 && < 5
 
+executable std
+  main-is: Statistics/Tools/Std/Main.hs
+  build-depends:   base >= 3 && < 5
